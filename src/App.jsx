@@ -1,15 +1,30 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/hero";
-import Services from "./components/Services";
+// src/App.jsx
+import Header from "./components/Header";
+import Hero from "./sections/Hero";
+import Services from "./sections/Services";
+import AllFeatures from "./sections/AllFeatures";
+import TwoCards from "./sections/TwoCards";
+import Companies from "./sections/Companies";
+import Subscribe from "./sections/Subscribe";
+import Footer from "./components/Footer";
+
 
 export default function App() {
   return (
+    
     <>
-      <Navbar />
-      <Hero />
-      <Services />
-      
-      {/* other sections... */}
+      <Header />
+       
+      <Hero /> 
+      <Services /> 
+      <AllFeatures />
+      <TwoCards />
+      <Companies />
+      <Subscribe />
+      <Footer />       
+
     </>
   );
+
+  
 }
